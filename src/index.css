@@ -38,6 +38,16 @@ body {
   width: auto;
 }
 
+.like-btn {
+  background-color: #e04b52;
+  background: linear-gradient(45deg, #e04b52 25%, transparent 25%, transparent 50%, #FFF 50%, #e04b52 75%, transparent 75%, transparent);
+  background-size: 10px 10px;
+  color: black;
+  cursor: pointer;
+  border: #e04b52 solid 1px
+}
+
+
 button {
   position: relative;
   background-color: #e04b52;
@@ -57,6 +67,7 @@ button {
 
 button:hover {
   background-color: whitesmoke;
+  background: none;
   border: #e04b52 solid 1px;
   color: #e04b52;
 }
